@@ -8,6 +8,7 @@
     --botones: #C69C6D;
     --detalles: #8B5A3C;
     --secundario: #E8D5C4;
+    --blanco: #FFFFFF;
 }
 
 html {
@@ -84,6 +85,13 @@ img {
     text-align: center;
     color: var(--secundario);
     margin-top: 5rem;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1), 0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -92,4 +100,31 @@ img {
         justify-content: space-between;
         align-items: center;
     }
+}
+
+.logo {
+    color: var(--textoPrincipal);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1), 0px 0px 25px rgba(59, 130, 246, 0.4);
+}
+
+.logo__nombre {
+    font-weight: 400;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
 }
