@@ -58,7 +58,7 @@ h4 {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .no-margin {
@@ -127,4 +127,12 @@ img {
     text-align: center;
     font-size: 1.8rem;
     color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
 }
