@@ -9,6 +9,7 @@
     --detalles: #8B5A3C;
     --secundario: #E8D5C4;
     --blanco: #FFFFFF;
+    --negro: #000000;
 }
 
 html {
@@ -104,8 +105,8 @@ img {
 }
 
 .logo {
-    color: var(--textoPrincipal);
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1), 0px 0px 25px rgba(59, 130, 246, 0.4);
+    color: var(--blanco);
+    /*text-shadow: 0px 0px 10px rgba(255, 255, 255, 1), 0px 0px 25px rgba(59, 130, 246, 0.4);*/
 }
 
 .logo__nombre {
@@ -198,4 +199,10 @@ img {
 .widget-curso__info {
     font-family: var(--fuenteHeding);
     font-weight: normal;
+}
+
+.footer {
+    background-color: var(--negro);
+    padding: 3rem 0;
+    margin-top: 4rem;
 }
