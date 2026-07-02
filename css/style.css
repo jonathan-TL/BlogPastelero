@@ -243,3 +243,11 @@ img {
     border: none;
 }
 
+/** Contacto **/
+
+.contacto-bg {
+    background-image: url(../img/banner1.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
