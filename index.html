@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog pastelero</title>
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preconexión a fuentes -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sail&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sail&display=swap" rel="stylesheet">
+    
+    <!-- Preload de estilos -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -40,7 +51,7 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog1.webp" alt="imagen blog">
+                    <img src="img/blog1.webp" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
@@ -56,7 +67,7 @@
 
                         <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog2.webp" alt="imagen blog">
+                    <img src="img/blog2.webp" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
@@ -72,7 +83,7 @@
 
                         <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog3.webp" alt="imagen blog">
+                    <img src="img/blog3.webp" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
