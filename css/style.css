@@ -170,3 +170,7 @@ img {
 .boton--primario {
     background-color: var(--detalles);
 }
+
+.boton--secundario {
+    background-color: var(--detalles);
+}
