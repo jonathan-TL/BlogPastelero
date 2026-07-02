@@ -194,12 +194,13 @@ img {
     border: none;
     margin-bottom: 0;
 }
-
+.curso__label,
 .widget-curso__label {
     font-family: var(--fuenteHeding);
     font-weight: bold;
 }
-
+.curso__descripcion,
+.curso__info,
 .widget-curso__info {
     font-family: var(--fuenteHeding);
     font-weight: normal;
@@ -224,3 +225,21 @@ img {
         flex-basis: 50%;
     }
 }
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--detalles);
+}
+
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.curso:last-of-type {
+    border: none;
+}
+
