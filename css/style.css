@@ -174,3 +174,7 @@ img {
 .boton--secundario {
     background-color: var(--detalles);
 }
+
+.cursos {
+    list-style: none;
+}
